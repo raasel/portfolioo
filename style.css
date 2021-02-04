@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-gap: 5px; */
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 15px;
+}
+.grid-containerH {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-gap: 5px; */
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-containerH > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 15px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-gap: 5px; */
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 15px;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(rasel.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+header div ul{
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header div ul li{
+  display: inline-block;
+}
+header div ul li a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+header div ul li a:hover{
+  background-color: #fff;
+  color: blue;
+}
+header div ul li.active a{
+  background-color: #fff;
+  color: blue;
+}
+.main{
+  padding: 16px;
+  height: 1500px;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color: #fff;
+  font-size: 60px;
+}
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6 ease;
+}
+.btn:hover{
+  background-color: #fff;
+  color: blue;
+}
+.name{
+  position: absolute;
+  top: 7%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+}
+.nam{
+  border: transparent;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6 ease;
+}
+.name a{
+  font-size: 17px;
+}
+.nam:hover{
+  background-color: #fff;
+  color: blue;
+}
+.hobbies{
+  text-align: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(hobby.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 120%;
+}
+.inspiration ul li{
+ text-align: center;
+  display: block;
+}
+.inspiration h1{
+ color: rgb(10, 10, 10) !important;
+}
+.service{
+  text-align: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(service.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+}
+.service div div h1{
+  color: azure;
+}
+.portpolio{
+  text-align: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(portpolio.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+}
+.portpolio div div h1{
+  color: azure;
+}
+.contact{
+  text-align: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(contact.jpg);
+  height: 52vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+}
+.contact div div h1{
+  color: azure;
+}
+.hobbies div div h1{
+  color: azure;
+}
+.Pinfo{
+  text-align: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(personal.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+  color: white;
+}
+ul.info{
+  list-style-type: circle;
+  background-color: rgba(160, 177, 177, 0.226);
+}
+.hobby{
+  text-align: center;
+}
+div ol.game {
+  list-style-type: upper-roman !important;
+  list-style-position: inside;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.usefullink tr td a{
+  text-decoration: none;
+}
